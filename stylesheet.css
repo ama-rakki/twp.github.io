@@ -2,12 +2,12 @@
 
 body {
   background-color: cornsilk;
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
-    font-size 20px;
-}
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" font-size 20px;
+cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym13.cur), auto !important;} 
 
 a {
   color: lightseagreen
+  
 }
 
 h1 {
@@ -94,11 +94,14 @@ li a,
 li a:hover,
 .dropdown:hover .dropbtn {
   background-color: darkgrey;
+
 }
 
 li.dropdown {
   display: inline-block;
 }
+a:hover{
+cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi273.ani), url(https://cur.cursors-4u.net/smilies/smi-3/smi273.gif), auto !important;} 
 
 .dropdown-content {
   display: none;
@@ -139,4 +142,14 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   padding: 20px 40px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: url(favicon_io/favicon-16x16.png);
+  border-radius: 16px;
 }
