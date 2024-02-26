@@ -1,39 +1,48 @@
 @charset "UTF-8";
 
 body {
-  background-color: cornsilk;
+  background-color:#eebb8b
+
+  ;
   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" font-size 20px;
 cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym13.cur), auto !important;} 
 
 a {
-  color: lightseagreen
+  color: #ffd900
   
 }
 
 h1 {
-  color: darkgrey;
+  color: #3aaf2a
+  ;
 }
 
 h2 {
-  color: #67ADEC;
+  color: #fe4337
+  ;
 }
 
 p {
-  color: lightpink;
+  color: #00a3e2
+  ;
   font-size: 17px;
 }
 
 img {
 
-  border: 3px solid pink;
+  border: 3px solid #a16429
+
+  ;
 }
 
 h3 {
-  color: #90DFA8;
+  color: #ffd900
+  ;
 }
 
 h4 {
-  color: lightseagreen
+  color: #a16429
+
 }
 
 ul {
@@ -41,7 +50,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: thistle;
+  background-color: #00a3e2
+  ;
 }
 
 li {
@@ -56,7 +66,8 @@ li a {
 }
 
 li a:hover {
-  background-color: darksalmon;
+  background-color: #3aaf2a
+  ;
 }
 
 .active {
@@ -68,8 +79,10 @@ tr:nth-child(even) {
 }
 
 th {
-  background-color: lightblue;
-  color: white;
+  background-color: #a4a9ac
+  ;
+  color: #f8d101
+  ;
 }
 
 th,
@@ -80,13 +93,14 @@ td {
 }
 
 tr:hover {
-  background-color: lavender;
+  background-color: #f9d001
+  ;
 }
 
 li a,
 .dropbtn {
   display: inline-block;
-  color: white;
+  color: #eebb8b;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -122,7 +136,8 @@ cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi273.ani), url(https://cu
 }
 
 .dropdown-content a:hover {
-  background-color: antiquewhite;
+  background-color: #8bd5f2
+  ;
 }
 
 .dropdown:hover .dropdown-content {
@@ -135,7 +150,8 @@ cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi273.ani), url(https://cu
 }
 
 figcaption {
-  color: palevioletred
+  color: #93bc3f
+
 }
 
 .wrapper {
@@ -147,10 +163,16 @@ figcaption {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 16px;
+  width: 14px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-image: url(favicon_io/favicon-16x16.png);
+  background-image: url(images/ob10-icon-trash_can.gif);
   border-radius: 16px;
+}
+.GFG {
+  font-size: 85px;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color:#fed9ec;
+  color: rgb(255, 255, 255);
 }
