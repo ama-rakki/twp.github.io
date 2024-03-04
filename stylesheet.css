@@ -1,49 +1,41 @@
 @charset "UTF-8";
 
 body {
-  background-color:#f5d2b2
-
-  ;
-  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" font-size 20px;
-cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym13.cur), auto !important;} 
+  background-color:#a16429;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym13.cur), auto !important;
+}
 
 a {
   color: #c6a904
-
-  
 }
 
 h1 {
-  color: #3aaf2a
-  ;
+  color: #3aaf2a;
 }
 
 h2 {
-  color: #fe4337
-  ;
+  color: #fe4337;
 }
 
 p {
-  color: #00a3e2
-  ;
-  font-size: 17px;
+  color: #00a3e2;
+  font-size: 19px;
+  line-height: 160%;
 }
 
 img {
 
-  border: 3px solid #a16429
-
-  ;
+  border: 3px solid #a16429;
 }
 
 h3 {
-  color: #c6a904
-  ;
+  color: #c6a904;
 }
 
 h4 {
   color: #a16429
-
 }
 
 ul {
@@ -51,8 +43,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #00a3e2
-  ;
+  background-color: #00a3e2;
 }
 
 li {
@@ -67,8 +58,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #3aaf2a
-  ;
+  background-color: #3aaf2a;
 }
 
 .active {
@@ -80,10 +70,8 @@ tr:nth-child(even) {
 }
 
 th {
-  background-color: #a4a9ac
-  ;
-  color: #f8d101
-  ;
+  background-color: #a4a9ac;
+  color: #f8d101;
 }
 
 th,
@@ -94,8 +82,7 @@ td {
 }
 
 tr:hover {
-  background-color: #f9d001
-  ;
+  background-color: #f9d001;
 }
 
 li a,
@@ -116,8 +103,10 @@ li a:hover,
 li.dropdown {
   display: inline-block;
 }
-a:hover{
-cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi273.ani), url(https://cur.cursors-4u.net/smilies/smi-3/smi273.gif), auto !important;} 
+
+a:hover {
+  cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi273.ani), url(https://cur.cursors-4u.net/smilies/smi-3/smi273.gif), auto !important;
+}
 
 .dropdown-content {
   display: none;
@@ -137,8 +126,7 @@ cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi273.ani), url(https://cu
 }
 
 .dropdown-content a:hover {
-  background-color: #8bd5f2
-  ;
+  background-color: #8bd5f2;
 }
 
 .dropdown:hover .dropdown-content {
@@ -152,7 +140,6 @@ cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi273.ani), url(https://cu
 
 figcaption {
   color: #93bc3f
-
 }
 
 .wrapper {
@@ -160,6 +147,8 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   padding: 20px 40px;
+  background-color: #f5d2b2;
+  border-radius: 50px;
 }
 
 /* width */
@@ -171,9 +160,10 @@ figcaption {
   background-image: url(images/ob10-icon-trash_can.gif);
   border-radius: 16px;
 }
+
 .GFG {
   font-size: 85px;
   -webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color:#fed9ec;
+  -webkit-text-stroke-color: #fed9ec;
   color: rgb(255, 255, 255);
 }
