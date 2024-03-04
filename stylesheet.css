@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body {
-  background-color: #a16429;
+  background-image: url("images/background.png");
+  background-size: contain;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   cursor: url(https://cur.cursors-4u.net/symbols/sym-1/sym13.cur), auto !important;
